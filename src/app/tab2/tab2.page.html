@@ -2,127 +2,55 @@
 </ion-header>
 <ion-content>
 	<ion-row class="ion-row">
-		<ion-col size= "9">
-			<ion-icon class="arrow-round-back" name="arrow-round-back"></ion-icon>	
-		</ion-col>
-		<ion-col size="3">
-			<ion-icon class="star" name="star"></ion-icon>
-			<ion-icon class="star" name="hand"></ion-icon>
-			<ion-icon class="star" name="share"></ion-icon>	
-		</ion-col>
-	</ion-row>
-	<ion-card>
-	<ion-card-content>
-	<img class="img" src="/assets/holi.png">
-	<ion-label class="ion-title">Bollywood Music Night</ion-label>
-	<ion-row>
-		<ion-col size="11">
-			<ion-label class="ion-label">@Boston Desi Night Group</ion-label>
-		</ion-col>
-		<ion-col size="1">
-			<ion-icon class="arrow-round-forward" name="arrow-dropright"></ion-icon>
-		</ion-col>
-	</ion-row>
-	<ion-row class="ion-row-1">
-		<ion-col size="2">
-			<ion-icon class="calendar" name="calendar"></ion-icon>
-		</ion-col>
-		<ion-col size="10">
-			<ion-label class="ion-label-1">Fri,Apr 4 - Sat,Apr 5 </ion-label>
-			<p class="time">9 pm - 5 am EST</p>
-		</ion-col>
-	</ion-row>
-	<ion-item>
-	<ion-row class="ion-row-2">
-		<ion-col size="1">
-			<ion-icon class="pin" name="pin"></ion-icon>
-		</ion-col>
-		<ion-col size="11">
-			<ion-label class="ion-label-2">Boston, MA</ion-label>
-			<p class="ion-label-2">Sissy K's Night Club, Government Center</p>
-		</ion-col>
-	</ion-row>
-	</ion-item>
-	<ion-item>
-	<ion-row>
-		<ion-col size="12">
-		<ion-label class="Details">Details</ion-label>
-		<p class="description"><b>Lorem ipsum</b> is simply dummy text of the printing <b>Lorem ipsum</b> is simply dummy text of the printing <b>Lorem ipsum</b> is simply dummy text of the printing <b>Lorem ipsum</b> is simply dummy text of the printing <b>Lorem ipsum</b> is simply dummy text of the printing <b>Lorem ipsum</b> is simply dummy text of the printing <b>Lorem ipsum</b> is simply dummy text of the printing <span class="span">...more</span></p>	
-		</ion-col>
-	</ion-row>
-	</ion-item>
-		<ion-item>
-		<ion-row>
-			<ion-col size="12">
-				<ion-label class="Details">Location</ion-label>	
-				<img class="map" src="/assets/map.png">
+		<ion-col class="ion-col" size="12">
+		<ion-icon (click)=Home() class="ion-icon" name="arrow-dropleft"></ion-icon>
+		<ion-label class="ion-label">Browse Groups</ion-label>	
+		</ion-col>	
+		</ion-row>
+		<ion-row class="ion-row-1">
+			<ion-col>
+				<ion-label>Popular Groups in Boston</ion-label>
 			</ion-col>
 		</ion-row>
-	</ion-item>
-	<ion-item>
-		<ion-row class="ion-row-3">
-		<ion-col size="12">
-		<span>Organizer</span>
-	</ion-col>
-	<ion-col class="ion-col" size="2">
-		<ion-icon class="person" name="person"></ion-icon>
-	</ion-col>
-	<ion-col class="ion-col" size="6">
-		<ion-label class="span-1">Boston Events</ion-label>
-	</ion-col>
-	<ion-col class="ion-col" size="4">
-		<ion-button fill="outline" class="button">Follow</ion-button>
-	</ion-col>
-	</ion-row>
-	</ion-item>
-	<ion-item>
-		<ion-row class="ion-row-3">
-		<ion-col class="ion-col-1" size="12">
-			<ion-label>Event Interests</ion-label>
-		</ion-col>
-		<ion-button class="ion-button-1" color="medium">Indian Events</ion-button>
-		<ion-button class="ion-button-1" color="medium">Desi Nights</ion-button>
-		<ion-button class="ion-button-1" color="medium">Bollywood</ion-button>
-		<ion-button class="ion-button-1" color="medium">Dj</ion-button>
-		<ion-button class="ion-button-1" color="medium">nightparty</ion-button>
-		<ion-button class="ion-button-1" color="medium">bollywood</ion-button>
-	</ion-row>
-	</ion-item>
-	<ion-row>
-	<ion-col size="12">	
-	<ion-label class="Comments">Comments</ion-label>
-	</ion-col>
-	</ion-row>
-	<ion-row class="ion-row-3">
-		<ion-col size="2">
-			<ion-icon class="ion-icon-1" name="person"></ion-icon>
-		</ion-col>
-		<ion-col size="10">
-        <ion-textarea position="stacked" placeholder="Enter more information here..."></ion-textarea></ion-col>
-	</ion-row>
-	<ion-card class="ion-card-1">
-    <ion-card-content>
-      <ion-row>
-        <ion-col size="2">
-      <ion-icon class="person-3" name="person"></ion-icon>          
-        </ion-col>
-        <ion-col size="10">
-          <p class="name">Prashanth Reddy</p>
-          <p class="name-1">Friday, Apr 5, 5:30 PM EST</p>
-        </ion-col>
-      </ion-row>
-      <p class="name-3">All the user comments will be shown here</p>
-      <ion-row class="ion-row-1">
-        <ion-col size="8">
-          <p class="Reply"><b>Reply</b></p>
-        </ion-col>
-        <ion-col size="4">
-          <p class="Reply"><b>View all replies</b></p>
-        </ion-col>
-      </ion-row>
-    </ion-card-content>
-  </ion-card>
-	</ion-card-content>
-	</ion-card>
+		<ion-row class="ion-row-1" >
+			<ion-col class="ion-col-2" size="5.5">
+				<ion-icon class="ion-icon-1" name="add-circle"></ion-icon>
+				<p class="group-name">Boston Desi Night Group</p>
+			</ion-col>
+			<ion-col class="ion-col-3" size="5.5">
+				<ion-icon class="ion-icon-1" name="add-circle"></ion-icon>
+				<p class="group-name">Boston Desi Night Group</p>
+			</ion-col>
+		</ion-row>
+
+		<ion-row class="ion-row-1" >
+			<ion-col class="ion-col-2" size="5.5">
+				<ion-icon class="ion-icon-1" name="add-circle"></ion-icon>
+				<p class="group-name">Boston Outdoor Activities</p>
+			</ion-col>
+			<ion-col class="ion-col-3" size="5.5">
+				<ion-icon class="ion-icon-1" name="checkmark-circle"></ion-icon>
+				<p class="group-name">Bollywood Night Parties</p>
+			</ion-col>
+		</ion-row>
+		<ion-row class="ion-row-1" >
+			<ion-col class="ion-col-2" size="5.5">
+				<ion-icon class="ion-icon-1" name="add-circle"></ion-icon>
+				<p class="group-name">Boston Outdoor Activities</p>
+			</ion-col>
+			<ion-col class="ion-col-3" size="5.5">
+				<ion-icon class="ion-icon-1" name="checkmark-circle"></ion-icon>
+				<p class="group-name">Bollywood Night Parties</p>
+			</ion-col>
+		</ion-row>
+		<ion-row class="ion-row-1" >
+			<ion-col class="ion-col-2" size="5.5">
+				<ion-icon class="ion-icon-1" name="add-circle"></ion-icon>
+				<p class="group-name">Boston Outdoor Activities</p>
+			</ion-col>
+			<ion-col class="ion-col-3" size="5.5">
+				<ion-icon class="ion-icon-1" name="checkmark-circle"></ion-icon>
+				<p class="group-name">Bollywood Night Parties</p>
+			</ion-col>
+		</ion-row>
 </ion-content>
- <ion-button href="/tab3" class="footer-button" size="large" expand="full">RSVP- Buy Tix</ion-button>

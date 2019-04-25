@@ -1,0 +1,35 @@
+<ion-header>
+</ion-header>
+<ion-content>
+    <ion-row class="ion-row">
+        <ion-col class="ion-col" size="12">
+       <ion-icon (click)=Menu() class="ion-icon" name="arrow-dropleft"></ion-icon>
+        <ion-label class="ion-label">Contact Us</ion-label>	
+        </ion-col>	
+       </ion-row>
+  
+          <ion-select class="ion-select" placeholder="Select Type">
+            <ion-select-option value="a">Host an event</ion-select-option>
+            <ion-select-option value="b">Tickets</ion-select-option>
+            <ion-select-option value="c">Service Requests</ion-select-option>
+            <ion-select-option value="d">New Features</ion-select-option>
+            <ion-select-option value="e">Payments</ion-select-option>
+          </ion-select>
+      <ion-item>
+        <ion-label position="floating">First Name</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label position="floating">Last Name</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label position="floating">Email Name</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label position="floating">Contact</ion-label>
+              <ion-input></ion-input>
+            </ion-item>                     
+ <ion-button class="footer-button" size="large" expand="full">Update Profile</ion-button>
+</ion-content>

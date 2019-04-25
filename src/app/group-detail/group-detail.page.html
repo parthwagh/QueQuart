@@ -1,0 +1,128 @@
+<ion-header>
+</ion-header>
+<ion-content>
+  <ion-row>
+    <ion-col (click)=Grouping() size="9">
+  <ion-icon class="arrow" name="arrow-round-back"></ion-icon>
+  <ion-label class="Back">Back</ion-label></ion-col>
+  <ion-col size="3">
+    <ion-icon class="star" name="Share"></ion-icon>
+    <ion-label class="Interested">Share</ion-label>
+  </ion-col>
+</ion-row>
+ <ion-card>
+    <ion-card-content>
+     <img class="img-1" src="/assets/holi.png"> 
+      <ion-label class="ion-card-header">
+        Boston Desi Night Group</ion-label>
+      <ion-label class="Private"> Private group!</ion-label>  
+      <p class="event">232 Events Hosted</p>
+      <ion-row class="ionic-row">
+        <ion-col size="2">
+          <ion-icon class="pin" name="pin"></ion-icon>
+        </ion-col>
+        <ion-col size="6">
+          <p>Boston, MA</p>
+          <p>987 members</p>
+        </ion-col>
+        <ion-col size="2">
+        <ion-icon class="contacts" name="contacts"></ion-icon>
+      </ion-col>
+      <ion-col size="2">
+        <p class="join">JOIN</p>
+      </ion-col>
+      </ion-row>
+        <p class="group"><b>Group Description</b></p>
+        <p class="lorem">lorem ipsum is a simply dummy text of the printing and typesetting industry. Lorem ipsum have...<span class="more">more</span> </p>
+        <ion-segment class="ion-seg" (ionChange)="segmentChanged($event)">
+          <ion-segment-button checked>
+            <ion-label class="ion-label-1">For You</ion-label>
+          </ion-segment-button>
+          <ion-segment-button>
+            <ion-label class="ion-label-1">Free Meetups</ion-label>
+          </ion-segment-button>
+          <ion-segment-button>
+            <ion-label class="ion-label-1">Paid Tix</ion-label>
+          </ion-segment-button>
+        </ion-segment>
+        <ion-row class="ion-row-1p">
+          <ion-col size="4">
+            <img src="/assets/holi.png">
+          </ion-col>
+          <ion-col class="ion-col-1p" size="8">
+            <ion-label>Bollywood Nightlife Group</ion-label><br>
+            <ion-label class="ion-label-2p">Boston, MA</ion-label><br>
+            <ion-label class="ion-label-2p">23 Events Hosted</ion-label><br>
+            <ion-label class="ion-label-2p">233 members</ion-label><br>
+          </ion-col>
+        </ion-row> 
+        <ion-row class="ion-row-1p">
+          <ion-col size="4">
+            <img src="/assets/holi.png">
+          </ion-col>
+          <ion-col class="ion-col-1p" size="8">
+            <ion-label>Bollywood Nightlife Group</ion-label><br>
+            <ion-label class="ion-label-2p">Boston, MA</ion-label><br>
+            <ion-label class="ion-label-2p">23 Events Hosted</ion-label><br>
+            <ion-label class="ion-label-2p">233 members</ion-label><br>
+          </ion-col>
+        </ion-row> 
+  </ion-card-content>
+  </ion-card>
+
+
+<ion-card>
+  <ion-card-content>
+    <p class="Organizer">Organizer</p>
+    <ion-item>
+    <ion-row class="row-1">
+      <ion-col size="4">
+        <ion-icon class="person-2" name="person"></ion-icon>
+    </ion-col>
+    <ion-col size="8">
+        <p>Boston Events</p>
+    </ion-col>
+  </ion-row>
+  </ion-item>
+  <ion-item>
+    <p>Group Experiences</p>
+    <ion-icon class="cloud-upload" name="cloud-upload">
+    </ion-icon>
+  </ion-item>
+  <ion-item>
+    <p class="upload">Show all Images here...</p>
+  </ion-item>
+  <p class="Organizer">Conversation</p>
+  <ion-row class="ion-row-2">
+    <ion-col size="2">
+      <ion-icon class="person-3" name="person"></ion-icon>
+    </ion-col>
+    <ion-col size="10">
+        <ion-textarea position="stacked" placeholder="Enter more information here..."></ion-textarea></ion-col>
+  </ion-row>
+  <ion-card>
+    <ion-card-content>
+      <ion-row>
+        <ion-col size="2">
+      <ion-icon class="person-3" name="person"></ion-icon>          
+        </ion-col>
+        <ion-col size="10">
+          <p class="name">Prashanth Reddy</p>
+          <p class="name-1">Friday, Apr 5, 5:30 PM EST</p>
+        </ion-col>
+      </ion-row>
+      <p class="name-3">All the user comments will be shown here</p>
+      <ion-row class="ion-row-1">
+        <ion-col size="8">
+          <p class="Reply"><b>Reply</b></p>
+        </ion-col>
+        <ion-col size="4">
+          <p class="Reply"><b>View all replies</b></p>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+</ion-card-content>
+</ion-card>
+</ion-content>
+

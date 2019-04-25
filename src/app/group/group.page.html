@@ -1,36 +1,21 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Two
-    </ion-title>
-  </ion-toolbar>
 </ion-header>
-
 <ion-content>
-
 	<ion-row class="ion-row">
-		<ion-col size= "2.5">
-			<ion-icon class="arrow-round-back" name="arrow-round-back"></ion-icon>
-			<ion-label class="Back">Back</ion-label>
+		<ion-col size= "9">
+			<ion-icon (click)=Back() class="arrow-round-back" name="arrow-round-back"></ion-icon>	
 		</ion-col>
-		<ion-col size="3.5">
+		<ion-col size="3">
 			<ion-icon class="star" name="star"></ion-icon>
-			<ion-label class="Interested">Interested</ion-label>
-		</ion-col>
-			<ion-col size="2.7">
 			<ion-icon class="star" name="hand"></ion-icon>
-			<ion-label class="Interested">Going</ion-label>
-		</ion-col>
-			<ion-col size="3.3">
-			<ion-icon class="star" name="share"></ion-icon>
-			<ion-label class="Interested">Share</ion-label>
+			<ion-icon class="star" name="share"></ion-icon>	
 		</ion-col>
 	</ion-row>
 	<ion-card>
 	<ion-card-content>
 	<img class="img" src="/assets/holi.png">
 	<ion-label class="ion-title">Bollywood Music Night</ion-label>
-	<ion-row>
+	<ion-row (click)=Groupdetail()>
 		<ion-col size="11">
 			<ion-label class="ion-label">@Boston Desi Night Group</ion-label>
 		</ion-col>
@@ -140,4 +125,4 @@
 	</ion-card-content>
 	</ion-card>
 </ion-content>
- <ion-button href="/tab3" class="footer-button" size="large" expand="full">RSVP- Buy Tix</ion-button>
+ <ion-button href="/checkout" class="footer-button" size="large" expand="full">RSVP- Buy Tix</ion-button>
